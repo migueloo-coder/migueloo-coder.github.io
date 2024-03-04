@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+</head>
+
+<body>
+    <a>Introduzir Comentarios</a>
+    <form action="index.html" method="post">
+    </br>
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <label>Nome:</label><br/>
+            <input name="nome" type="text"><br/>
+            <label>Email:</label><br/>
+            <input name="email" type="email"><br/>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback</legend>
+            <label>Secção:</label><br/>
+            <select class="selectpro">
+                <option value="produtos">Produtos</option>
+                <option value="promoções">Promoções</option>
+                <option value="serviçosLojas">Serviços e Lojas</option>
+           </select>
+        <br/>
+        <br/>
+        <label>Quantas vezes se deparou com o problema?</label><br/>
+        <input type="radio" name="op1" value="umavez">Apenas uma vez<br/> 
+        <input type="radio" name="op2" value="cincovez">Duas a cinco vezes<br/>
+        <input type="radio" name="op3" value="maisdecincovez">Mais do que cinco vezes<br/>
+        <br/>
+        <label>Já nos enviou feedback sobre este assunto?</label><br/>
+        <input type="checkbox" name="tempo" value="hoje"> Sim, hoje.<br/> 
+        <input type="checkbox" name="tempo" value="masnao"> Sim, mas não<br/>
+        <br/>
+        <label>Por favor, descreva o problema:</label><br/>
+            <textarea class="selectpro" name="problema"></textarea><br/>
+        <br/>
+        </fieldset>
+        <button class="botinfo" type="button">Info</button>
+        <button class="botlim" type="reset">Limpar</button>
+        <button class="botenv" type="sumbit">Enviar</button>
+    </form>
+    <br/>
+    <a href="index.html" class="back-to-top">
+        <img src="./img/back.svg"/>
+        Atras
+    </a> 
+</body>
+</html>

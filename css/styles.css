@@ -1,0 +1,104 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.back-to-top {
+    background-color: #59bfde; 
+    color: white;
+    padding: 12px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer; 
+    text-decoration: none; 
+}
+.back-to-top img {
+    margin-right: 8px; 
+}
+.back-to-top:hover {
+    background-color: #2980b9; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {  
+    border: 1px solid #000000;       
+    padding: 8px;
+    text-align: left; 
+}
+th {
+    background-color: #cac4c4;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #eaeaea;
+}
+
+.image-cell img {
+    width: 100px;
+    height: auto; 
+}
+
+
+.image-cell2 img {
+    width: 400px;
+    height: auto; 
+}
+.image-cell2 img {
+    width: 300px;
+    height: auto; 
+}
+
+.botlog {   
+    height:30px;
+    background: #1f5809;
+    border-radius: 11px;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+    outline: none;
+}
+
+.botlog:hover {
+    background: linear-gradient(to bottom, #1f1fae 0%, #4646ae 100%);
+}
+
+.botlog:active {
+    box-shadow: inset 1px 1px 3px rgb(255, 255, 255);
+}
+.selectpro{
+    background-color: #94b5eb;
+}
+.botinfo{
+    height:30px;
+    background: #4f4e4e;
+    border-radius: 11px;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+    outline: none;
+}
+.botlim{
+    height:30px;
+    background: #a11818;
+    border-radius: 11px;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+    outline: none;
+}
+.botenv{
+    height:30px;
+    background: #317b13;
+    border-radius: 11px;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+    outline: none;
+}

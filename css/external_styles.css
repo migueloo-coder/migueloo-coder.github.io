@@ -1,0 +1,172 @@
+
+body {
+    background: linear-gradient(135deg, #000000, #434343, #000000, #292929, #000000);
+    background-size: 600% 600%;
+  
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    color:#eaeaea;
+    font-family:"Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+}
+  
+@-webkit-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+  
+@-moz-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+  
+@keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+  
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.content {
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.imgprof {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.dctupt {
+    width: 290px;
+    height: auto;
+}
+
+.profile-header  {
+    text-align: center;
+}
+
+.labs-body{
+    padding: 20px 0;
+    border-radius: 5px;   
+}
+
+.linea-elegante {
+    border: 0; 
+    height: 2px; 
+    background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.75), transparent); 
+    margin: 20px 0; 
+  }
+  
+.about-me {
+    margin-top: 20px;
+    text-align: center;
+}
+.aboutgit {
+    width: 60px;
+    height: auto;
+}
+
+.boton-moderno {
+    padding: 10px 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #f9f9f9; /* Color dorado para el texto, destaca sobre fondo negro */
+    background-color: #4E4E50; /* Gris oscuro para el botón */
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); /* Sombra clara para el contraste */
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .boton-moderno:hover, .boton-moderno:focus {
+    background-color: #68686A; /* Un tono de gris más claro para el hover */
+    box-shadow: 0 15px 25px rgba(255, 255, 255, 0.3); /* Sombra más intensa */
+    transform: translateY(-2px);
+  }
+  
+  .boton-moderno:active {
+    background-color: #565658; /* Un tono de gris aún más oscuro para el active */
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2); /* Sombra más suave */
+    transform: translateY(0);
+  }
+
+  .site-footer {
+    color: #ffffff;
+    background-color: #333333;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #7658ef; /* Un dorado suave para el hover */
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #474747;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-section {
+      margin-bottom: 20px;
+    }
+  }
