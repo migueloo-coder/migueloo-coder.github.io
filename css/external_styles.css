@@ -208,3 +208,33 @@ tr:nth-child(even) {
   color:#000000;
   text-align: center;
 }
+
+.boton-moderno-lan {
+  position: fixed; /* O puedes usar absolute o relative según tu diseño */
+  top: 20px; /* Ajusta según la necesidad */
+  right: 20px; /* Ajusta según la necesidad */
+  z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
+  padding: 10px 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #f9f9f9; /* Color dorado para el texto, destaca sobre fondo negro */
+  background-color: #4E4E50; /* Gris oscuro para el botón */
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); /* Sombra clara para el contraste */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+.boton-moderno-lan:hover, .boton-moderno-lan:focus {
+  background-color: #68686A; /* Un tono de gris más claro para el hover */
+  box-shadow: 0 15px 25px rgba(255, 255, 255, 0.3); /* Sombra más intensa */
+  transform: translateY(-2px);
+}
+
+.boton-moderno-lan:active {
+  background-color: #565658; /* Un tono de gris aún más oscuro para el active */
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2); /* Sombra más suave */
+  transform: translateY(0);
+}
